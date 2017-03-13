@@ -11,14 +11,17 @@
 
   <nav>
     <ol>
-      <li><a href="Generate.html">Generate</a></li>
-      <li><a href="List.html">List<a/></li>
+      <li><a href="Generate.php">Generate</a></li>
+      <li><a href="List.php">List<a/></li>
     </ol>
   </nav>
 
-  <form method="get" action="Generate.php">
-    <input type="text" name="PartName" value="Input_PartName" size="50" autofocus>
-    <input type="submit">
+  <?php echo $_GET["PartName"]; ?>
+  <?php echo '<br/>'; ?>
+  <?php echo '565885785787'; ?>
+
+  <form method="post" action="Generate3.php">
+    <input type="submit" value="Save into DB">
   </form>
 
 </body>

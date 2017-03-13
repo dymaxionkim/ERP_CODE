@@ -1,0 +1,7 @@
+
+# apt
+sudo apt install php sqlite
+
+# julia
+Pkg.add("SQLite")
+Pkg.add("DataFrames")

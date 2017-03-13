@@ -26,3 +26,7 @@ h1{
 h2{
   font-size:20px;
 }
+
+table.ex1 {width:80%; margin:0 auto; text-align:left; background:#DDDDDD; color:#555555; border:1}
+.ex1 th, .ex1 td {padding:5px 10px}
+.ex1 tbody tr:hover {background:#FFFFFF}

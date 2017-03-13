@@ -7,8 +7,7 @@
 </head>
 <body>
   <img src="http://hubright.cafe24.com/wp-content/uploads/2017/01/hubright_logo_sticky.png">
-  <h1>ERP_CODE for DJDMP</h1>
-  <a href="https://try.gitea.io/dymaxionkim/test/raw/master/sample10.pdf">link</a>
+  <h1>Generate</h1>
 
   <nav>
     <ol>
@@ -16,5 +15,12 @@
       <li><a href="List.php">List<a/></li>
     </ol>
   </nav>
+
+  <?php echo 'Saved into DB.'; ?>
+
+  <form method="post" action="Generate.php">
+    <input type="submit" value="Finish">
+  </form>
+
 </body>
 </html>
