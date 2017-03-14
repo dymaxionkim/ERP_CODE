@@ -1,4 +1,4 @@
-<form method="get" action="Generate2.php">
-  <input type="text" name="PartName" value="Input_PartName" size="50" autofocus>
+<form method="post" action="index.php?id=Generate2">
+  <input type="text" name="NAME" value="gyuguiougio" size="50" autofocus>
   <input type="submit">
 </form>

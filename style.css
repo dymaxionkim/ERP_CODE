@@ -1,7 +1,32 @@
+
+a:link {color:#005AAB; text-decoration:none; }
+a:hover {color:#005AAB; text-decoration:underline; }
+a:active {color:#005AAB; text-decoration:none; }
+a:visited {color:#005AAB; text-decoration:none; }
+
+input[type="text"] {
+  font-family:monospace;
+  font-weight:bold;
+  padding: 10px 10px 10px 10px;
+  font-size:20px;
+  color:#005AAB;
+}
+
+input[type="submit"] {
+  padding: 10px 10px;
+  font-size:20px;
+  color:#005AAB;
+}
+
+input[type="button"] {
+  padding: 10px 10px;
+  font-size:20px;
+  color:#005AAB;
+}
+
 header{
   border-top:10px solid #005AAB;
-  border-bottom:10px solid #005AAB;
-  padding:1px;
+  padding:0px;
 }
 
 header img{
@@ -18,7 +43,8 @@ nav {
 
 nav ol{
   list-style:none;
-  font-size:15px;
+  font-size:20px;
+  font-weight:bold;
   color:#005AAB;
 }
 
@@ -30,7 +56,7 @@ article{
 }
 
 h1{
-  font-size:20px;
+  font-size:30px;
   color:#005AAB;
 }
 
@@ -38,6 +64,12 @@ h2{
   font-size:20px;
 }
 
-table.ex1 {width:80%; margin:0 auto; text-align:left; background:#DDDDDD; color:#555555; border:1}
-.ex1 th, .ex1 td {padding:5px 10px}
-.ex1 tbody tr:hover {background:#FFFFFF}
+table{
+  width:80%;
+  margin:0
+  auto;
+  text-align:left;
+  background:#DDDDDD;
+  color:#555555;
+  border:1
+}
