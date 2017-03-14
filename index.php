@@ -6,15 +6,23 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <img src="http://hubright.cafe24.com/wp-content/uploads/2017/01/hubright_logo_sticky.png">
-  <h1>ERP_CODE for DJDMP</h1>
-  <a href="https://try.gitea.io/dymaxionkim/test/raw/master/sample10.pdf">link</a>
+
+  <header>
+    <img src="http://hubright.cafe24.com/wp-content/uploads/2017/01/hubright_logo_sticky.png">
+    <h1>ERP_CODE for DJDMP</h1>
+  </header>
 
   <nav>
     <ol>
-      <li><a href="Generate.php">Generate</a></li>
-      <li><a href="List.php">List<a/></li>
+      <?php echo file_get_contents("nav.php"); ?>
     </ol>
   </nav>
+
+  <article>
+    <?php if ( empty($_GET['id']) == false ) {
+      echo file_get_contents($_GET['id'].".php");
+    } ?>
+  </article>
+
 </body>
 </html>

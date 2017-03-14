@@ -1,10 +1,16 @@
 header{
-  border-bottom:1px solid gray;
-  padding:20px;
+  border-top:10px solid #005AAB;
+  border-bottom:10px solid #005AAB;
+  padding:1px;
+}
+
+header img{
+  float:right;
+  height:40px;
 }
 
 nav {
-  border-right:1px solid gray;
+  border-right:0px solid #005AAB;
   width:200px;
   height:600px;
   float:left;
@@ -12,15 +18,20 @@ nav {
 
 nav ol{
   list-style:none;
+  font-size:15px;
+  color:#005AAB;
 }
 
 article{
   float:left;
   padding:20px;
+  font-size:20px;
+  color:#005AAB;
 }
 
 h1{
-  font-size:30px;
+  font-size:20px;
+  color:#005AAB;
 }
 
 h2{
